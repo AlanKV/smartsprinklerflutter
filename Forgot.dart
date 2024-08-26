@@ -157,6 +157,7 @@ class _ForgotState extends State<Forgot> {
   @override
   void dispose() {
     _emailController.dispose();
+
     super.dispose();
   }
 }
